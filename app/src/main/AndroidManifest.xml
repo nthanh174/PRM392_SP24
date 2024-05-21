@@ -13,8 +13,8 @@
         android:theme="@style/Theme.Code"
         tools:targetApi="31">
         <activity
-            android:name="sl_4.custom_listview"
-            android:exported="true">
+            android:name="sl_5.list_data_sqllite"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,20 +22,24 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="sl_4.custom_listview"
+            android:exported="false">
+        </activity>
+        <activity
             android:name="sl_3.ptb2"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name="sl_3.list_view"
             android:exported="false" />
         <activity
             android:name="sl_3.login"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name="sl_2.bt.bt2"
             android:exported="false" />
         <activity
             android:name="sl_2.bt.bt1"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name="sl_2.code.Activity_1"
             android:exported="false" />
